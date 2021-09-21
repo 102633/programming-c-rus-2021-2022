@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int c = n / 100;
+    int b = (n % 100) / 10;
+    int a = n % 10;
+    int k = a + b + c;
+
+    cout << k;
+    return 0;
+}
